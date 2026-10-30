@@ -1,19 +1,41 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Documentação - Projeto Calculadora</title>
+<title>Calculadora (FinançApp)</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+  h1 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 5px; }
+  .method { margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; background: #f9f9f9; border-radius: 5px; }
+  code { color: #c7254e; background-color: #f9f2f4; padding: 2px 4px; border-radius: 4px; }
+</style>
 </head>
-
 <body>
-    <h1>Projeto Calculadora / FinançApp</h1>
-    <p>Documentação gerada via JavaDoc para o módulo de cálculos do aplicativo de finanças pessoais.</p>
+  <h1>Class Calculadora</h1>
+  <p>Classe responsável por realizar operações matemáticas básicas para o aplicativo FinançApp. Permite realizar adição, subtração, multiplicação e divisão.</p>
+  <p><b>Author:</b> Victor Hugo de Almeida Barbosa<br><b>Version:</b> 1.0</p>
+  <br>
+  <h2>Method Summary</h2>
+  
+  <div class="method">
+    <h3>calc</h3>
+    <code>public double calc(int a, int b, java.lang.String op)</code>
+    <p>Executa uma operação matemática simples entre dois números inteiros com base no operador informado.</p>
     <ul>
-        <li><strong>Classe:</strong> calculadora.Calculadora</li>
-        <li><strong>Autor:</strong> Victor Hugo de Almeida Barbosa</li>
-        <li><strong>Versão:</strong> 1.0</li>
+        <li><b>Parameters:</b> a - primeiro operando, b - segundo operando, op - operador matemático (+, -, *, /)</li>
+        <li><b>Returns:</b> resultado numérico da operação</li>
+        <li><b>Throws:</b> <code>IllegalArgumentException</code> - se o operador for inválido ou nulo.</li>
     </ul>
-</body>
+  </div>
 
+  <div class="method">
+    <h3>dividir</h3>
+    <code>public double dividir(int a, int b)</code>
+    <p>Realiza a divisão entre dois números inteiros.</p>
+    <ul>
+        <li><b>Parameters:</b> a - numerador, b - denominador</li>
+        <li><b>Returns:</b> resultado da divisão como valor real (double)</li>
+        <li><b>Throws:</b> <code>IllegalArgumentException</code> - se o divisor for zero.</li>
+    </ul>
+  </div>
+</body>
 </html>
