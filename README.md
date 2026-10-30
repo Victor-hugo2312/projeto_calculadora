@@ -64,7 +64,7 @@ A aplicação oferece as seguintes operações:
 | VS Code    | IDE                        |
 
 ## 8. Estrutura do Projeto
-<img width="1530" height="787" alt="image" src="https://github.com/user-attachments/assets/a4d6b4a3-ad22-411a-b41c-9fd33bc95df9" />
+<img width="400" height="332" alt="image" src="https://github.com/user-attachments/assets/91d26bfb-d954-466d-880b-c8ba040654c6" />
 
 ## 9. Evidências (Prints Obrigatórios)
 ### Execução dos Testes
